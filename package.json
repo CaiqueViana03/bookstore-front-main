@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npm run build && npx http-server dist -p 8080",
+    "start": "npm run build && npx http-server dist -p 4200",
     "build": "ng build",
     "watch": "ng build --watch --configuration development"
   },
@@ -29,5 +29,9 @@
     "@angular/compiler-cli": "^17.0.0",
     "typescript": "~5.2.2",
     "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=10.0.0"
   }
 }
