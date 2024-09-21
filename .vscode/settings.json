@@ -1,0 +1,13 @@
+{
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-page": {
+            "skipChangeDetectionOnPush": true
+        }
+    },
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a7cc0e26-48b3-4d46-b8a8-e2b441356e2c/resourceGroups/bd2109/providers/Microsoft.Web/sites/front",
+    "appService.deploySubpath": "dist\\bookstore-front"
+}
